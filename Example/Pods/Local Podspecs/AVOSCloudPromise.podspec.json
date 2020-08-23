@@ -1,0 +1,30 @@
+{
+  "name": "AVOSCloudPromise",
+  "version": "0.1.0",
+  "summary": "A short description of AVOSCloudPromise.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hustlzp/AVOSCloudPromise",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hustlzp": "hustlzp@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hustlzp/AVOSCloudPromise.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AVOSCloudPromise/Classes/**/*",
+  "dependencies": {
+    "AVOSCloud": [
+      "12.3.0.100"
+    ],
+    "PromiseKit": [
+      "6.13.1"
+    ]
+  }
+}

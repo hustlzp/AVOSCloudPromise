@@ -1,0 +1,16 @@
+PODS:
+  - AVOSCloudPromise (0.1.0)
+
+DEPENDENCIES:
+  - AVOSCloudPromise (from `../`)
+
+EXTERNAL SOURCES:
+  AVOSCloudPromise:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AVOSCloudPromise: 0bcedba29b9792737d68efa97417fc0a8aaedcb1
+
+PODFILE CHECKSUM: c0771e2f0c28781c63778f6d35995af688d7d83e
+
+COCOAPODS: 1.8.4

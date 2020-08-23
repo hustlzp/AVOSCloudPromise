@@ -1,0 +1,6 @@
+framework module AVOSCloudPromise {
+  umbrella header "AVOSCloudPromise-umbrella.h"
+
+  export *
+  module * { export * }
+}
