@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AVOSCloudPromise_Example' do
+  pod 'AVOSCloudPromise', :path => '../'
+
+  target 'AVOSCloudPromise_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
