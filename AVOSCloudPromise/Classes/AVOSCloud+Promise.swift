@@ -494,3 +494,19 @@ extension AVQuery {
         })
     }
 }
+
+extension AVCaptcha {
+    /// <#Description#>
+    /// - Parameters:
+    ///   - _: <#_ description#>
+    ///   - captchaCode: <#captchaCode description#>
+    ///   - digest: <#digest description#>
+    /// - Returns: <#description#>
+    public static func verifyCaptchaCode(_: PMKNamespacer, captchaCode: String, for digest: AVCaptchaDigest) -> Promise<String> {
+        return Promise.init { seal in
+            AVCaptcha.verifyCaptchaCode(captchaCode, for: digest) { validationToken, error in
+                return seal.resolve(error, validationToken)
+            }
+        }
+    }
+}
